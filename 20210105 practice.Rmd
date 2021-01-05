@@ -1,0 +1,29 @@
+---
+title: "20210105 practice"
+author: "Celine"
+date: "1/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+num1<-5 # 非整數
+num2<-5L # 整數
+
+num1Vector<-c(5,6,7)
+num2Vector<-c(5L,6L,7L)
+```
+
+```{r}
+object.size(num1)
+object.size(num2)
+object.size(num1Vector)
+object.size(num2Vector)
+
+```
+
